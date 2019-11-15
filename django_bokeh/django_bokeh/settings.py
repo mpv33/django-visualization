@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'neuraltech.urls'
+ROOT_URLCONF = 'django_bokeh.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'neuraltech.wsgi.application'
+WSGI_APPLICATION = 'django_bokeh.wsgi.application'
 
 
 # Database
