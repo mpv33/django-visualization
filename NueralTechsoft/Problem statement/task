@@ -1,0 +1,18 @@
+Part 1
+Performing Technical Analysis.
+Given a price series as a list
+1. Calculate the Simple Moving Average(SMA) of the price(P).
+(Accept the time period as the input)
+2. For every point of the SMA, calculate standard deviation(STD_DEV).
+3. Mark an upper band(UB) as SMA+2*STD_DEV
+4. Mark a lower band(LB) as SMA-2*STD_DEV
+5. IF P>UB, stock is in state A
+6. IF UB>=P>=LB, stock is in state B
+7. IF P<LB, stock is in state C
+Part 2
+Django coding
+Make a Django server that does the following.
+1. Has a homepage with 1 button.
+2. On clicking that button, render a view with a chart.
+3. Use echarts(apache incubated). They have an example chart with dynamic data.
+4. The created chart should dynamically show the above data.
